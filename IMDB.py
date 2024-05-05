@@ -16,7 +16,13 @@
 #Formatting data
 #Create any additional data
 #Plot findings
-import pandas as pdimport numpy as npimport matplotlib.pyplot as pltimport matplotlib as mplimport seaborn as snsimport datetime as dtimport pylab as pl%matplotlib inline
+
+import pandas as pdimport
+import numpy as npimport
+import matplotlib.pyplot as pltimport matplotlib 
+import  mplimport seaborn as snsimport 
+import datetime as dtimport 
+import pylab as pl%matplotlib inline
 
 # Loading the dataset
 
