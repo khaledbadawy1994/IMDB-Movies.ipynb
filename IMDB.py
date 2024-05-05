@@ -1,21 +1,21 @@
 # IMDB-Movies.ipynb
 
-What is IMDb ?
+#What is IMDb ?
 
-IMDb, short for Internet Movie Database, is an online repository that houses a vast collection of information related to movies, TV shows, podcasts, home videos, video games, and streaming content. It provides details such as cast and crew information, personal biographies, plot summaries, trivia, ratings, as well as fan and critical reviews. Initially established by fans on the Usenet group "rec.arts.movies" in 1990, IMDb transitioned to the internet in 1993. Since 1998, it has been under the ownership and operation of IMDb.com, Inc., a subsidiary of Amazon.
+#IMDb, short for Internet Movie Database, is an online repository that houses a vast collection of information related to movies, TV shows, podcasts, home videos, video games, and streaming content. It provides details such as cast and crew information, personal biographies, plot summaries, trivia, ratings, as well as fan and critical reviews. Initially established by fans on the Usenet group "rec.arts.movies" in 1990, IMDb transitioned to the internet in 1993. Since 1998, it has been under the ownership and operation of IMDb.com, Inc., a subsidiary of Amazon.
 
-As of March 2022, the database encompasses approximately 10.1 million titles, including television episodes, and boasts 11.5 million records of individuals. Furthermore, the site has amassed an impressive user base of 83 million registered users. The platform's message boards were disabled in February 2017.¶
+#As of March 2022, the database encompasses approximately 10.1 million titles, including television episodes, and boasts 11.5 million records of individuals. Furthermore, the site has amassed an impressive user base of 83 million registered users. The platform's message boards were disabled in February 2017.¶
 
-Outline of EDA We shall perform the following steps:
+#Outline of EDA We shall perform the following steps:
 
-Preview data
-Check total number of entries and column types
-Check any null values
-Check duplicate entries
-Rename the columns
-Formatting data
-Create any additional data
-Plot findings
+#Preview data
+#Check total number of entries and column types
+#Check any null values
+#Check duplicate entries
+#Rename the columns
+#Formatting data
+#Create any additional data
+#Plot findings
 import pandas as pdimport numpy as npimport matplotlib.pyplot as pltimport matplotlib as mplimport seaborn as snsimport datetime as dtimport pylab as pl%matplotlib inline
 
 # Loading the dataset
